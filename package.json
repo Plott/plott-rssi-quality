@@ -1,0 +1,31 @@
+{
+  "name": "plott-rssi-quality",
+  "version": "0.0.1",
+  "description": "Converts RSSI in dBm to quality percentage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js",
+    "doc": "dox -r < index.js | doxme --readme > README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plott/plott-rssi-quality.git"
+  },
+  "keywords": [
+    "dBm",
+    "RSSI",
+    "WiFi",
+    "Plott"
+  ],
+  "author": "Corey White",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Plott/plott-rssi-quality/issues"
+  },
+  "homepage": "https://github.com/Plott/plott-rssi-quality#readme",
+  "devDependencies": {
+    "tape": "~3.5.0",
+    "dox": "^0.7.1",
+    "doxme": "^1.8.2"
+  }
+}
