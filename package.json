@@ -4,7 +4,7 @@
   "description": "Converts RSSI in dBm to quality percentage.",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/*.js",
+    "test": "tape tests/*.js",
     "doc": "dox -r < index.js | doxme --readme > README.md"
   },
   "repository": {
